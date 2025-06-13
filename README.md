@@ -1,0 +1,2 @@
+# SStoText
+SS to Text
