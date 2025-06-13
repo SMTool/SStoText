@@ -1,2 +1,1 @@
-# SStoText
-SS to Text
+
