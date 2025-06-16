@@ -2,7 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Image to Text Converter</title>
+  <title>Image to Text Converter – Paste Image to Extract Text</title>
+<meta name="description" content="Convert images to text instantly by pasting them on the page. Fast, simple, and private OCR tool built with JavaScript. No upload needed.">
+<meta name="keywords" content="image to text, OCR online, convert image text, paste image to extract text, clipboard OCR, online OCR, image text extractor">
+<meta name="author" content="SMTool">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Convert Image to Text – Paste & Extract Instantly" />
+<meta property="og:description" content="Just paste an image and get the text out of it using our fast, secure, client-side OCR tool." />
+<meta property="og:url" content="https://smtool.github.io/SStoText/" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://smtool.github.io/SStoText/thumbnail.png" /> <!-- Optional image -->
+
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
   <style>
     /* Animated background */
@@ -90,9 +100,10 @@
   </style>
 </head>
 <body>
-
   <h1>🖼️ Image to Text Converter</h1>
-
+<h2>Convert Image to Text by Pasting – Free Online OCR</h2>
+<p>Paste any image onto this page to extract its text instantly using client-side OCR. No upload, no signup.</p>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
   <div id="drop-area">
     <p>Click or Paste an Image Here</p>
     <input type="file" id="file-input" accept="image/*">
@@ -157,6 +168,22 @@
       };
       reader.readAsDataURL(file);
     }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SStoText - Image to Text Converter",
+  "url": "https://smtool.github.io/SStoText/",
+  "applicationCategory": "Utility",
+  "operatingSystem": "Web",
+  "description": "Convert image to text by pasting it directly onto the webpage. Free online OCR tool with privacy in mind.",
+  "author": {
+    "@type": "Organization",
+    "name": "SMTool"
+  }
+}
+</script>
+
   </script>
 </body>
 </html>
